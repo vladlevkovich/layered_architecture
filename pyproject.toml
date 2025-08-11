@@ -17,6 +17,10 @@ flake8-pyproject = ">=1.2.3,<2.0.0"
 black = ">=25.1.0,<26.0.0"
 mypy = ">=1.17.1,<2.0.0"
 isort = {extras = ["colors"], version = "^6.0.1"}
+types-setuptools = "^69.0.0"
+types-requests = "^2.31.0"
+pydantic = {extras = ["email"], version = "^2.0.0"}  # Ensure pydantic types are available
+dependency-injector = "^4.41.0"  # Add explicit version if using DI
 
 
 [build-system]
