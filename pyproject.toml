@@ -15,7 +15,7 @@ pydantic-settings = "^2.10.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8-pyproject = ">=1.2.3,<2.0.0"
-black = ">=25.1.0,<26.0.0"
+black = "25.1.0"
 mypy = ">=1.17.1,<2.0.0"
 isort = {extras = ["colors"], version = "^6.0.1"}
 types-setuptools = "^69.0.0"
