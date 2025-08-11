@@ -90,10 +90,10 @@ pretty = true
 ignore_missing_imports = true
 follow_imports = "silent"
 
-[tool.mypy."pydantic.*"]
+[tool.mypy-pydantic]
 ignore_missing_imports = true
 
-[tool.mypy."dependency_injector.*"]
+[tool.mypy-dependency_injector]
 ignore_missing_imports = true
 
 [tool.black]
