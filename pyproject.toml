@@ -86,15 +86,9 @@ warn_redundant_casts = true
 warn_unreachable = true
 show_error_codes = true
 pretty = true
-
+ignore_missing_imports = true
 ignore_missing_imports = true
 follow_imports = "silent"
-
-[tool.mypy-pydantic]
-ignore_missing_imports = true
-
-[tool.mypy-dependency_injector]
-ignore_missing_imports = true
 
 [tool.black]
 line-length = 88
