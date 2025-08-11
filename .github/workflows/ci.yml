@@ -53,7 +53,7 @@ jobs:
         poetry run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statistics
       continue-on-error: false
 
-    -name: Run MyPy
-    run: |
-      poetry run mypy
-    continue-on-error: false
+    - name: Run MyPy
+      run: |
+        poetry run mypy
+      continue-on-error: false
