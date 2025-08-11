@@ -87,7 +87,6 @@ warn_unreachable = true
 show_error_codes = true
 pretty = true
 ignore_missing_imports = true
-ignore_missing_imports = true
 follow_imports = "silent"
 
 [tool.black]
