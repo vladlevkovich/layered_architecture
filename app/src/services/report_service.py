@@ -1,9 +1,9 @@
-import os
-import threading
-import time
 from datetime import datetime
 from io import BytesIO
+import os
 from pathlib import Path
+import threading
+import time
 from typing import Any, Dict, List
 
 import matplotlib
