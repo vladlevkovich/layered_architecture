@@ -2,13 +2,11 @@
 name = "layered-architecture"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Vladyslav Levkovich",email = "levkovich.vlad.2004@gmail.com"}
-]
+authors = ["Vladyslav Levkovich <levkovich.vlad.2004@gmail.com>"]
 package-mode = false
-requires-python = ">=3.11,<4.0"
 
 [tool.poetry.dependencies]
+python = ">=3.11,<4.0"
 python = ">=3.11,<4.0"
 beanie = ">=2.0.0,<3.0.0"
 fastapi = ">=0.116.1,<0.117.0"
